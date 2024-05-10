@@ -1,4 +1,3 @@
-import { FaStore } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -16,7 +15,9 @@ function Navbar() {
                             type="button"
                             className="text-white-new bg-meddium-blue hover:bg-cyan focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                         >
-                            Cadastrar Produto
+                            <Link to='/cadastrarCategoria'>
+                            Cadastrar Categoria
+                            </Link>
                         </button>
                     </div>
                     <div
@@ -48,7 +49,9 @@ function Navbar() {
                                     href="#"
                                     className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-cyan md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                                 >
+                                    <Link to='/categorias'>
                                     Categorias
+                                    </Link>
                                 </a>
                             </li>
                             <li>

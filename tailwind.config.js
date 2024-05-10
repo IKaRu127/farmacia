@@ -20,6 +20,8 @@ module.exports = {
       'dark-blue':'#011936',
       'meddium-blue':'#00597d',
       'cyan': '#40c8b8',
+      'wine': '#C82621',
+      'green':'#028727CC'
     },
   },
   plugins: [],
